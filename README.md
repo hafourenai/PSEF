@@ -29,7 +29,7 @@ exploit_framework/
 
 1. **Clone repository:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/hafourenai/PSEF.git
    cd PSEF
    ```
 
