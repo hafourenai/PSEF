@@ -1,6 +1,5 @@
-# 🧪  Post-Scanning Exploitation Framework (PSEF)
+# 💥  Post-Scanning Exploitation Framework (PSEF)
 
-Professional, hardened, and security-first exploitation framework for penetration testers and security researchers.
 
 ## Fitur Utama
 
