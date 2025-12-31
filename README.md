@@ -1,8 +1,8 @@
-# 🛡️ Post-Scanning Exploitation Framework (PSEF)
+# 🧪  Post-Scanning Exploitation Framework (PSEF)
 
 Professional, hardened, and security-first exploitation framework for penetration testers and security researchers.
 
-## 🚀 Fitur Utama
+## Fitur Utama
 
 - **Deterministic Exploitation**: Hasil yang dapat direproduksi, bukan sekadar menebak.
 - **Multi-Signal Verification**: Verifikasi kerentanan menggunakan analisis statistik (time-based, boolean-based, error-based).
@@ -26,7 +26,7 @@ exploit_framework/
 └── scripts/       # Script pembantu (generator, validator)
 ```
 
-## 🛠️ Instalasi
+## Instalasi
 
 1. **Clone repository:**
    ```bash
@@ -46,7 +46,7 @@ exploit_framework/
    pip install -r requirements.txt
    ```
 
-## 🚀 Pengunaan Cepat
+## Pengunaan Cepat
 
 ### 1. Siapkan Findings
 Buat file `findings.json` berdasarkan hasil scan Anda (lihat folder `templates/` untuk contoh).
@@ -85,14 +85,14 @@ Laporan akan tersedia di:
 - `audit_report.json` (Raw data)
 - `audit_report.md` (Dokumentasi teknis)
 
-## 🔧 Konfigurasi
+## Konfigurasi
 Sesuaikan perilaku framework melalui file `config.yaml`. Anda dapat mengatur timeout, rate limiting, threads, dan daftar path yang dilarang.
 
-## 🧪 Testing
+## Testing
 Jalankan uji coba menggunakan findings contoh:
 ```bash
 python main.py --findings examples/example_findings.json
 ```
 
 ---
-**Disclaimer**: Gunakan alat ini hanya pada sistem yang Anda miliki izin tertulis untuk mengujinya. Penyalahgunaan alat ini dapat berakibat hukum.
+**⚠ Disclaimer**: Gunakan alat ini hanya pada sistem yang Anda miliki izin tertulis untuk mengujinya. Penyalahgunaan alat ini dapat berakibat hukum.
