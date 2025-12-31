@@ -1,0 +1,17 @@
+[
+  {
+    "target": "https://example.com",
+    "endpoint": "/api/test",
+    "method": "GET",
+    "parameter": "id",
+    "value": "1",
+    "vulnerability_type": "SQL_INJECTION",
+    "scanner_evidence": {
+      "confidence": 0.85,
+      "detected_by": "Scanner-X",
+      "timestamp": "2025-12-31T08:10:00Z"
+    },
+    "confidence": 0.85,
+    "scanner_id": "scan-001"
+  }
+]

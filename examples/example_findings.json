@@ -1,0 +1,31 @@
+[
+  {
+    "target": "http://testphp.vulnweb.com",
+    "endpoint": "/artists.php",
+    "method": "GET",
+    "parameter": "artist",
+    "value": "1",
+    "vulnerability_type": "SQL_INJECTION",
+    "scanner_evidence": {
+      "confidence": 0.9,
+      "detected_by": "Manual",
+      "dbms": "MySQL"
+    },
+    "confidence": 0.9,
+    "scanner_id": "test-001"
+  },
+  {
+    "target": "http://testphp.vulnweb.com",
+    "endpoint": "/search.php",
+    "method": "GET",
+    "parameter": "test",
+    "value": "search term",
+    "vulnerability_type": "XSS",
+    "scanner_evidence": {
+      "confidence": 0.8,
+      "context": "HTML_BODY"
+    },
+    "confidence": 0.8,
+    "scanner_id": "test-002"
+  }
+]
