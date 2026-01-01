@@ -45,7 +45,7 @@ exploit_framework/
    pip install -r requirements.txt
    ```
 
-## Pengunaan Cepat
+## Pengunaan 
 
 ### 1. Siapkan Findings
 Buat file `findings.json` berdasarkan hasil scan Anda (lihat folder `templates/` untuk contoh).
